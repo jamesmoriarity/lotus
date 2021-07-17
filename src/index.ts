@@ -1,5 +1,5 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
-import BaseComponent from "./BaseComponent"
+import Lotus from "./Lotus"
 
-ReactDOM.render(React.createElement(BaseComponent, null), document.getElementById('pocket'))
+ReactDOM.render(React.createElement(Lotus, null), document.getElementById('pocket'))
